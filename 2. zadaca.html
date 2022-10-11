@@ -44,7 +44,7 @@
         <input type="submit">
       </form>
       <br>
-      <h2>Please answer the next questions honestly.</h2>
+      <h2>Please answer the next few questions honestly.</h2>
       <p><h3>What is your opinion on humans?</h3></p>
       <form action="/action_page.php">
           <input type="radio" id="nice" name="opinion" value="Humans are totally nice.">
@@ -56,7 +56,7 @@
           <input type="submit" value="Submit"><br>
           <br>
         </form> <br>
-        <p><h3>Which of the following sentences describes you the best ?</h3></p>
+        <p><h3>Which of the following sentences describe you the best ?</h3></p>
         <form action="/action_page.php">
               <input type="radio" id="nice" name="opinion" value="Humans are totally nice.">
               <label for="nice">I like to take long walks in the park with my dog.</label><br>
@@ -74,11 +74,15 @@
       <img src="bender.jpg" alt="Human 1" style="width:170px;height:220px;"><input type="checkbox"><br>
       <img src="Zuck.jpg" alt="Human 1" style="width:170px;height:220px;"><input type="checkbox"><br>
       <img src="r2d2.jpg" alt="Human 1" style="width:170px;height:220px;"><input type="checkbox"><br>
+      <input type="submit" value="Submit">
       <br>
-      <p><h3>On a scale of 0 to 100 how much do you feel like a robot</h3></p>
+      <p><h3>On a scale of 0 to 100 how much do you feel like a robot ?
+        
+      </h3></p>
       <form action="/action_page.php" method="get">
-        <label for="vol">0-not a robot - 100-totally a robot:</label>
+        <label for="vol">0-not a robot</label>
         <input type="range" id="vol" name="vol" min="0" max="100">
+        <label for="vol">100-totally a robot:</label>
         <input type="submit" value="Submit">
       </form><br><br>
       <p><h2>Thank you for taking our totally official test, please leave us your e-mail and we will be sure to email you the results</h2></p>
@@ -87,5 +91,7 @@
         <input type="email" id="email" name="email">
         <input type="submit" value="Submit">
       </form>
+      <br>
+      <br>
       <h2>Click <a href="https://www.blueorigin.com/about-blue/">HERE</a> to find more about our sponsor.</h2>
 </body>
