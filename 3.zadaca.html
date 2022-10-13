@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-image: url('cutepinkcloud.jpg');text-align: center; 
+        
+        }
+          </style></head>
+</head>
+<body style="border: 3px solid rgb(247, 245, 247)"; background=""></body>
+    
+<h1 style=text-align:center;>Glucose guardian registration</h1>
+    <p style="text-align: center;">Welcome all future glucose guardians!<br>
+    Please fill out this quick questionaire below and we will match you super quick!</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="nname">Nickname:</label><br>
+        <input type="text" id="nname" name="nname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <p>Please upload your most recent photo:</p>
+<form action="/action_page.php">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="Submit">
+</form><br>
+<label for="age">Please let us know your age:</label>
+
+<input type="number" id="age" name="age"
+       min="40" max="105"><br>
+
+       <p>What is your preference?</p>
+
+<form action="/action_page.php">
+  <input list="sexpref" name="sexpref">
+  <datalist id="sexpref">
+    <option value="I prefer girls.">
+    <option value="I prefer guys.">
+    <option value="I prefer both.">
+  </datalist>
+  <input type="submit" value="Submit">
+</form><br>
+
+<p>What kind of relationship would you like?</p>
+
+<form action="/action_page.php">
+  <input list="relshp" name="relshp">
+  <datalist id="relshp">
+    <option value="Pen pal">
+    <option value="Serious">
+    <option value="Romantic">
+    <option value="Flirty">
+    <option value="Naughty">
+  </datalist>
+  <input type="submit" value="Submit">
+</form><br>
+<div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  </div>
+  <p>Tell us a bit more about your self!<br>
+We prefer honest and interesting things like how many cars you own, do you like giving gifts, what is your creditcard limit...</p>
+    <textarea name="your-story" rows="7" cols="30">    </textarea><br><br>
+    <p>How much money do you earn in a month?</p>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="100000" /> +
+        <input type="number" id="a" name="a" value="900000" /> =
+        <output name="result" for="a b">900000</output>
+      </form><br>
+      <p>How much money are you willing to spend on shopping in a month</p>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="100000" /> +
+        <input type="number" id="a" name="a" value="900000" /> =
+        <output name="result" for="a b">900000</output>
+      </form><br>
+      <h3>Please enter your e-mail and we will contact you asap!</h3>
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit">
+</form><br><br>
+
+
+</body>
